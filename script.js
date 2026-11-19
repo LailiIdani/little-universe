@@ -1,9 +1,9 @@
 const text = `Someone has been secretly preparing
 something special just for you...
 
-And no, it's not your future husband.
+And no, it's not your secret admirer.
 
-Unfortunately, it's me. HAHAHA 😭💗
+Unfortunately, it's me AHAHAHA 😭💗
 
 Ready to see what I've made for you?`;
 
@@ -33,8 +33,8 @@ function startSurprise() {
 
             Kamu yakin mau buka surprise ini?<br><br>
 
-            Soalnya yang bikin agak nyebelin,
-            tapi sayang banget sama kamu. 🤭
+            Soalnya yang bikin ini agak nyebelin,
+            tapi sayang banget sama kamu 🤭
         </p>
 
         <button onclick="nextPage()">
@@ -68,7 +68,7 @@ function startChat() {
                 <div class="chat-avatar">💗</div>
 
                 <div class="chat-info">
-                    <h3>Laili ♡</h3>
+                    <h3>Laili Idani ♡</h3>
                     <span>online</span>
                 </div>
 
@@ -128,13 +128,13 @@ function showOptions(options) {
 }
 
 async function playChat() {
-    await addMessage("PINGKANNNNN 😭💗");
+    await addMessage("CANTIKKUUU PINGKANNNNN 😭💗");
 
-    await addMessage("Kamu sibuk nggak?");
+    await addMessage("Kamu sibuk ngga?");
 
-    await addMessage("Eh, nggak penting sih. Dengerin aku dulu HAHAHA.");
+    await addMessage("Eh, ngga penting sih. Dengarin aku dulu AHAHAHA");
 
-    await addMessage("Kamu tahu nggak hari ini hari apa? 🤨");
+    await addMessage("Kamu tahu ngga hari ini hari apa? 🤨");
 
     showOptions([
         {
@@ -162,7 +162,7 @@ async function answerChat(choice) {
     if (choice === 1) {
         await addMessage("Hari Sabtu? 😭", "sent");
 
-        await addMessage("YA ALLAH PINGKAN 😭");
+        await addMessage("ASTAGAA 😭");
 
         await addMessage("Masa hari spesial kamu sendiri lupa sih HAHAHA.");
     }
@@ -185,13 +185,13 @@ async function answerChat(choice) {
 
     await addMessage("Anyway...");
 
-    await addMessage("HAPPY 21ST BIRTHDAY, PINGKAN! 🎂💗");
+    await addMessage("HAPPY 21ST BIRTHDAY, ADIKKUUU SAYANGGG! 🎂💗");
 
     await addMessage("Another year older, but still my favorite troublemaker.");
 
-    await addMessage("Aku sebenernya punya sesuatu buat kamu...");
+    await addMessage("Aku sebenarnya punya sesuatu buat kamu...");
 
-    await addMessage("Tapi nggak gratis dong. Harus usaha dulu 😌");
+    await addMessage("Tapi ngga gratis dong, harus usaha dulu pretty WKWKWK 😌");
 
     showOptions([
         {
@@ -199,7 +199,7 @@ async function answerChat(choice) {
             action: continueToGame
         },
         {
-            text: "Ih, Laili nyebelin banget 😒",
+            text: "Ihh, Nyebelin banget kamu ini 😒",
             action: continueToGame
         }
     ]);
@@ -262,7 +262,7 @@ function startHeartGame() {
     gameTime = 30;
 
     document.getElementById("game-container").innerHTML = `
-        <h1>💗 Catch My Love</h1>
+        <h1>💗 Catch The Love</h1>
         <p>Catch 10 hearts before time runs out!</p>
 
         <div class="game-progress">LEVEL 1 / 3</div>
@@ -287,8 +287,9 @@ function startHeartGame() {
 
             if (gameScore < 10) {
                 document.getElementById("game-container").innerHTML = `
-                    <h1>HAHAHA PINGKAN 😭</h1>
-                    <p>Masa nangkep hati aku aja susah sih?</p>
+                    <h1>AHAHAHA gagal yaa? 😭</h1>
+                    <p>Masa nangkep hati aku aja susah sih? Yaudah coba
+                    again yaa? Don't give up sayangg</p>
                     <button onclick="startHeartGame()">TRY AGAIN 💗</button>
                 `;
             }
@@ -319,7 +320,7 @@ function spawnHeart() {
 
             document.getElementById("game-container").innerHTML = `
                 <h1>LEVEL 1 COMPLETE! 🎉</h1>
-                <p>Wahhh, jago juga kamu nangkep hati aku 🤭</p>
+                <p>Wahhh, ternyata jago juga kamu nangkep hati aku HEHE 🤭</p>
                 <button onclick="startQuiz()">NEXT LEVEL →</button>
             `;
         }
@@ -343,7 +344,7 @@ const quizQuestions = [
         options: [
             "Cariin sampai ketemu",
             "Santai aja",
-            "Pura-pura nggak kangen"
+            "Pura-pura ngga kangen"
         ],
         correct: 0
     },
@@ -411,7 +412,7 @@ function answerQuiz(answer) {
     if (answer === q.correct) {
         quizScore++;
     } else {
-        alert("SALAHHH 😭 Tapi gapapa, kamu tetap lucu kok.");
+        alert("TETTTT SALAHHH 😭 Tapi gapapa, kamu tetap lucu kok.");
     }
 
     quizIndex++;
@@ -475,7 +476,7 @@ function showAchievement() {
         <h1>MISSION COMPLETE!</h1>
 
         <p>
-            Congratulations, Pingkan! 🎉<br><br>
+            Congratulations, birthday girl! 🎉<br><br>
             You've officially unlocked<br>
             THE BIRTHDAY SURPRISE! 🎁
         </p>
@@ -521,12 +522,12 @@ I kinda like this version of you. 🤭💗`
 
         message: `Hey, pretty girl...
 
-Kalau suatu hari kamu lagi capek, sedih, atau ngerasa semuanya terlalu berat, I hope you remember this.
+Kalau suatu hari kamu lagi capek, sedih atau ngerasa semuanya terlalu berat, I hope you remember this.
 
 You don't always have to be strong.
 
-Nggak apa-apa kalau kamu mau nangis.
-Nggak apa-apa kalau kamu butuh waktu sendiri.
+Ngga apa-apa kalau kamu mau nangis.
+Ngga apa-apa kalau kamu butuh waktu sendiri.
 
 But please, don't ever think you're alone.
 
@@ -534,7 +535,7 @@ Even on days when you don't feel like yourself, you're still someone worth lovin
 
 And if the world gets a little too loud, you can always come bother me.
 
-I'll pretend to be annoyed, but you know I won't mind. 🤍`
+I'll pretend to be annoyed, but you know I won't mind 🤍`
     },
 
     {
@@ -542,14 +543,14 @@ I'll pretend to be annoyed, but you know I won't mind. 🤍`
         emoji: "🤭",
         title: "Our Silly Little Moments",
 
-        message: `Dear Pingkan,
+        message: `Dear Adikkuu,
 
-Aku nggak tahu gimana caranya kita bisa ngobrol dari hal penting sampai hal paling random sedunia HAHAHA.
+Aku ngga tahu gimana caranya kita bisa ngobrol dari hal penting sampai hal paling random sedunia AHAHAHA.
 
-Kadang saling goda.
-Kadang ngambek.
-Kadang cemburu nggak jelas.
-Kadang cuma ketawa karena hal receh.
+Kadang saling goda,
+Kadang ngambek,
+Kadang cemburu ngga jelas,
+Kadang cuma ketawa karena hal receh,
 
 But somehow, those little moments became some of my favorite memories.
 
@@ -573,7 +574,7 @@ I hope this new chapter of your life treats you gently.
 
 Semoga semua hal baik yang kamu tunggu pelan-pelan datang menghampiri kamu.
 
-Semoga langkah kamu selalu dipermudah, impian kamu satu per satu tercapai, dan hati kamu selalu punya alasan buat bahagia.
+Semoga langkah kamu selalu dipermudah, impian kamu satu per satu tercapai dan hati kamu selalu punya alasan buat bahagia.
 
 I hope you find success in everything you work hard for.
 
@@ -589,11 +590,11 @@ You deserve so many beautiful things in this life. 🤍`
         emoji: "🔐",
         title: "A Secret I Never Told You",
 
-        message: `Okay, Pingkan...
+        message: `Okay, sayang...
 
 This one is a little different.
 
-Aku mungkin sering bercanda, godain kamu, atau pura-pura nyebelin.
+Aku mungkin sering bercanda, godain kamu atau pura-pura nyebelin.
 
 But there's something I genuinely want you to know.
 
@@ -601,8 +602,8 @@ I'm really grateful that life allowed me to meet you.
 
 I don't know what the future holds for either of us.
 
-Maybe we'll get busier.
-Maybe life will take us to different places.
+Maybe we'll get busier,
+Maybe life will take us to different places,
 
 But I hope that no matter how much things change, we'll always have a little space for each other.
 
@@ -612,7 +613,7 @@ You became someone I genuinely care about.
 
 And I'm glad it's you.
 
-Happy birthday, my favorite troublemaker.
+Happy birthday, my favorite cewekk <3.
 
 With love,
 Laili ♡`
@@ -807,8 +808,8 @@ function unlockNextPage() {
             <p>
                 You thought that was everything?<br><br>
 
-                Oh, sweetheart...<br>
-                We're not done yet. 🤭
+                NO NO YAAA<br>
+                Belum selesaii masih banyakk ini WKWKWK. 🤭
             </p>
 
             <button onclick="nextUniversePage()">
@@ -841,7 +842,7 @@ const universeMemories = [
 
 And somehow, ours became a little story of its own.
 
-Aku nggak pernah nyangka kalau seseorang yang awalnya cuma aku kenal biasa aja, lama-lama bisa jadi seseorang yang begitu berarti.
+Aku ngga pernah nyangka kalau seseorang yang awalnya cuma aku kenal biasa aja, lama-lama bisa jadi seseorang yang begitu berarti.
 
 I'm glad our paths crossed, Pingkan.
 
@@ -857,7 +858,7 @@ Because meeting you was one of those little surprises life gave me. 🤍`
 
 Sometimes happiness isn't about big things.
 
-Kadang cuma dari chat random, bercanda nggak jelas, atau saling ganggu tanpa alasan.
+Kadang cuma dari chat random, bercanda ngga jelas atau saling ganggu tanpa alasan.
 
 And somehow, you make those ordinary moments feel a little more special.
 
@@ -869,15 +870,15 @@ Thank you for being one of my little reasons to smile. 💗`
         icon: "🌷",
         title: "Things I Appreciate",
 
-        message: `Ada banyak hal kecil tentang kamu yang mungkin nggak kamu sadari.
+        message: `Ada banyak hal kecil tentang kamu yang mungkin ngga kamu sadari.
 
 The way you listen.
 The way you care.
 The way you stay.
 
-Aku mungkin nggak selalu bilang, tapi aku benar-benar menghargai semua itu.
+Aku mungkin ngga selalu bilang, tapi aku benar-benar menghargai semua itu.
 
-Thank you for being you, Pingkan. 🌷`
+Thank you for being you, Sayang. 🌷`
     },
 
     {
@@ -885,17 +886,17 @@ Thank you for being you, Pingkan. 🌷`
         icon: "🌙",
         title: "Even on Difficult Days",
 
-        message: `Hey, Pingkan...
+        message: `Hey, Cantikk...
 
 I know not every day is easy.
 
-Ada hari di mana kamu mungkin capek, sedih, atau cuma pengen diam.
+Ada hari di mana kamu mungkin capek, sedih atau cuma pengen diam.
 
 But I hope you remember that you don't have to face everything alone.
 
 Kalau kamu butuh teman cerita, aku ada.
 
-Kalau kamu cuma mau ditemenin tanpa banyak bicara, itu juga nggak apa-apa.
+Kalau kamu cuma mau ditemenin tanpa banyak bicara, itu juga ngga apa-apa soalnya aku tetap ada.
 
 You deserve kindness, even on your hardest days. 🤍`
     },
@@ -907,11 +908,11 @@ You deserve kindness, even on your hardest days. 🤍`
 
         message: `I don't know what tomorrow will bring.
 
-Mungkin nanti kita makin sibuk dengan kehidupan masing-masing.
+Mungkin nanti kita makin sibuk dengan kehidupan masing-masing,
 
 But I hope we'll never become strangers.
 
-Semoga kita tetap bisa saling cerita, saling goda, dan ketawa karena hal-hal random.
+Semoga kita tetap bisa saling cerita, saling ada utk each other dan ketawa karena hal-hal random.
 
 No matter where life takes us, I hope this friendship stays special.
 
@@ -927,9 +928,9 @@ Promise? 🤍`
 
 Somehow, you became one of my favorites.
 
-Bukan karena kamu harus selalu sempurna.
+Bukan karena kamu harus selalu sempurna,
 
-Bukan karena kamu harus selalu ceria.
+Bukan karena kamu harus selalu ceria,
 
 But simply because you're you.
 
@@ -939,7 +940,7 @@ I'd wish for you to always find happiness, even in the smallest things.
 
 Happy birthday, my little star.
 
-Keep shining, Pingkan. ✨
+Keep shining, Princess. ✨
 
 — Laili ♡`
     }
@@ -1213,7 +1214,7 @@ function showCakePrank() {
         </h2>
 
         <p>
-            Kamu udah bikin permohonan belum?
+            Kamu udah bikin wish belum?
             <br>
             Jangan bohong ya, aku tahu loh 🤭
         </p>
@@ -1312,7 +1313,7 @@ function showCakeEnding() {
 
             <p>
                 May your 21st year be filled with
-                happiness, love, success,
+                happiness, love, success
                 and beautiful little surprises.
                 <br><br>
                 Semoga semua doa baik kamu
@@ -1348,29 +1349,30 @@ Happy 21st birthday, pretty girl! ♡
 
 First of all, congratulations on surviving another year of being the most annoying yet adorable human being I know. HAHAHA.
 
-Aku sebenarnya nggak tahu harus mulai dari mana, karena ada banyak hal yang pengen aku bilang ke kamu.
+Aku sebenarnya ngga tahu harus mulai dari mana, karena ada banyak hal yang pengen aku bilang ke kamu.
 
 But I guess I'll start with something simple.
 
 Thank you.
+Thank you sayang,
 
-Thank you for being part of my life.
-Thank you for all the random conversations.
-Thank you for every little laugh.
+Thank you for being part of my life,
+Thank you for all the random conversations,
+Thank you for every little laugh,
 And thank you for being someone I can be myself around.
 
-You know, Pingkan...
+You know...
 
-Aku nggak pernah nyangka kalau seseorang yang awalnya cuma teman biasa bisa jadi salah satu orang yang begitu berarti buat aku.
+Aku ngga pernah nyangka kalau seseorang yang awalnya cuma teman biasa bisa jadi salah satu orang yang begitu berarti buat aku.
 
-Kadang kita ketawa bareng.
-Kadang saling goda sampai salah satu salting.
-Kadang ngambek karena hal kecil.
-Kadang juga ada salah paham yang bikin kita jadi canggung.
+Kadang kita ketawa bareng,
+Kadang saling goda sampai salah satu salting,
+Kadang ngambek karena hal kecil,
+Kadang juga ada salah paham yang bikin kita jadi canggung,
 
 But even after all that, I'm glad we're still here.
 
-Aku tahu aku nggak selalu jadi teman yang sempurna. Kadang aku terlalu diam, kadang susah menjelaskan apa yang aku rasakan, dan mungkin tanpa sadar pernah bikin kamu sedih.
+Aku tahu aku ngga selalu jadi teman yang sempurna. Kadang aku terlalu diam, kadang susah menjelaskan apa yang aku rasakan dan mungkin tanpa sadar pernah bikin kamu sedih.
 
 But please know that I genuinely care about you.
 
@@ -1382,9 +1384,9 @@ Semoga kamu selalu dikelilingi orang-orang yang tulus menyayangi kamu.
 
 And whenever life feels a little too heavy, I hope you remember that you don't have to carry everything alone.
 
-You deserve happiness.
-You deserve kindness.
-You deserve to be appreciated.
+You deserve happiness,
+You deserve kindness,
+You deserve to be appreciated,
 And you deserve to be loved for exactly who you are.
 
 One more thing...
@@ -1395,13 +1397,13 @@ Even if we don't talk every single day, I hope we'll always find our way back to
 
 Because honestly?
 
-Life would be a little less fun without you annoying me. 🤭
+Life would be a little less fun without you annoying me 🤭
 
-So please keep being your weird, beautiful, funny, and sometimes ridiculously annoying self.
+So please keep being your weird, beautiful, funny and sometimes ridiculously annoying self.
 
 And don't forget...
 
-You're getting older, but that doesn't mean you're allowed to stop being cute. 😌
+You're getting older, but that doesn't mean you're allowed to stop being cute sayang 😌
 
 Happy birthday once again, Pingkan.
 
@@ -1428,7 +1430,7 @@ function startBirthdayLetter() {
             <h1>💌 Things I Never Told You</h1>
 
             <p>
-                One last little surprise, Pingkan.
+                One last little surprise for you.
                 <br><br>
                 This one comes straight from my heart. ♡
             </p>
@@ -1439,7 +1441,7 @@ function startBirthdayLetter() {
                 <div class="envelope">
 
                     <div class="envelope-paper">
-                        For Pingkan ♡
+                        For Princesskuu ♡
                     </div>
 
                     <div class="envelope-flap"></div>
@@ -1575,7 +1577,7 @@ function showFinalBirthdayEnding() {
         <h2>🎀 THE END... OR IS IT?</h2>
 
         <p>
-            Congratulations, Pingkan!
+            Congratulations, cewekkuu cantikkk!!
             <br><br>
 
             You've officially completed
